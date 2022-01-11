@@ -7,4 +7,4 @@ console.log(findMin(8,23,17));
 
 let getMax = (...nums) => Math.max(...nums); // rest and spread ki shaktiyon ka galat istemaal :p
 
-console.log(getMin(8, 23, 17));
+console.log(getMax(8, 23, 17));
