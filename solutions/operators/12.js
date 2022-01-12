@@ -2,9 +2,7 @@
 
 
 let checkPrime = num => {
-
     let isPrime = true
-
     if (num < 2)
        return `${num} is not Prime`
     else

@@ -3,7 +3,9 @@
 // Input: minDate('02/05/2021', '24/01/2021') ––> Output: 24 / 01 / 2021
 
 const minDate = (date1,date2) => {
-    console.log(Date.parse(date2),Date.parse(date1));
+
+    
+    
     if (Date.parse(date1) < Date.parse(date2)) {
         return `${date1} comes before ${date2}`
     }else{
