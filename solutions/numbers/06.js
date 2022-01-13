@@ -6,4 +6,10 @@
 // Input: CP = 3125, SP = 1125
 // Output: 2000 Loss
 
-// const getProfitOrLoss = ()
+let getProfitOrLoss = (cp, sp) => {
+      let result = sp - cp
+      return result ? `${result} Profit` : `${result} Loss`
+}
+
+console.log(getProfitOrLoss(1500,2000));
+console.log(getProfitOrLoss(3125,1125));
