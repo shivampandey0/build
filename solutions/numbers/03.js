@@ -2,6 +2,6 @@
 
 //     Formula : 0.5 * m * v * v
 
-const findKineticEnergy = (mass,volume) => (0.5 * mass * Math.pow(volume,2)).toFixed(3)
+const findKineticEnergy = (mass,volume) => (0.5 * mass * volume * volume).toFixed(3)
 
 console.log(findKineticEnergy(55,3.87));
