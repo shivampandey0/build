@@ -15,7 +15,7 @@ const removeWord = (str, word) => {
             tempWord = '';
         }
 
-        if (i == str.length-1) newStr += tempWord;
+        if (i == str.length-1  && tempWord!==word) newStr += tempWord;
         
     }
 
