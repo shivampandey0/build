@@ -34,5 +34,5 @@ const removeWordNew = (str, word) => str.split(' ').filter(item => item !== word
 
 
 console.log(removeWordNew("how are you, how was your day?", 'how'));
-console.log(removeWord("how", 'how'));
-console.log(removeWord("programming camp are amazing", 'programming'));
+console.log(removeWordNew("how", 'how'));
+console.log(removeWordNew("programming camp are amazing", 'programming'));
